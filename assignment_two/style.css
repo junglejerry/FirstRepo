@@ -1,0 +1,52 @@
+
+body {
+	color: #555555;
+	font-family: Arial;
+}
+
+img {
+	float: left;
+}
+
+h1 {
+	color: black;
+	font-size: 24;
+	text-align: center;
+}
+
+#spacing {
+	margin-top: 80px
+}
+
+h2 {
+	color: black;
+	font-size: 18px;
+}
+
+
+th {
+	font-size: 14px;
+	height: 40px;
+	text-align: left;
+}
+
+div {
+	width: 100px;
+	font-style: bold;
+}
+
+#margin {
+	margin-top: 40px;
+}
+
+td:hover {
+	font-family: #FEFFDB;
+}
+
+footer {
+	font-family: Arial;
+	font-size: 12px; 
+	background-color: orange; 
+	text-align: center;
+}
+
