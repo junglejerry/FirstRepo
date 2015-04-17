@@ -12,7 +12,7 @@ img {
 h1 {
 	float: left;
 	margin-top: 50px;
-	margin-left: 150px;
+	margin-left: 120px;
 }
 
 hr {
@@ -34,6 +34,15 @@ th {
 th:first-child,td:first-child {
 	width: 100px;
 	font-weight: bold;
+}
+
+[class] {
+	background-color: orange;
+}
+
+.id {
+	width: 100px;
+	font-style: bold;
 }
 
 #margin {
@@ -60,3 +69,10 @@ footer {
 	text-align: center;
 }
 
+.box {
+	background-color: darkorange;
+	padding: 30px;
+	border-width: medium;
+	border-style: solid;
+	border-color: tomato;
+}
