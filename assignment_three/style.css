@@ -62,6 +62,15 @@ legend {
 	padding: 10px;
 }
 
+header {
+	font-family: Arial;
+	font-size: 16px; 
+	background-color: orange; 
+	text-align: left;
+	padding: 14px;
+	margin-bottom: 14px;
+}
+
 footer {
 	font-family: Arial;
 	font-size: 12px; 
@@ -76,3 +85,4 @@ footer {
 	border-style: solid;
 	border-color: tomato;
 }
+
