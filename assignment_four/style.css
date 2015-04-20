@@ -64,10 +64,10 @@ legend {
 
 header {
 	font-family: Arial;
-	font-size: 16px; 
+	font-size: 12px; 
 	background-color: orange; 
 	text-align: left;
-	padding: 14px;
+	padding: 6px;
 	margin-bottom: 14px;
 	border-width: small;
 	border-style: solid;
@@ -87,5 +87,39 @@ footer {
 	border-width: medium;
 	border-style: solid;
 	border-color: tomato;
+	margin-bottom: 22px;
+}
+
+.main-header {
+	position: relative;
+	top: 0;
+	width: 100%;
+	height: 60px;
+}
+
+.main-nav {
+	display:flex;
+	heigt: 100%;
+}
+
+.main-nav li {
+	align-self: center;
+	flex-grow: 1;
+	margin-left: 4px;
+
+}
+
+.header-logo:first-child {
+	margin-right: 50%;
+	flex-grow:12;
+}
+
+.form-box {
+	background-color: orange;
+	padding: 30px;
+	border-width: medium;
+	border-style: dashed;
+	border-color: tomato;
+	overflow: auto;
 }
 
