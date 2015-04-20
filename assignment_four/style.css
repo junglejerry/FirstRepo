@@ -1,125 +1,141 @@
-
 body {
-	color: #555555;
-	font-family: Arial;
+    color: #555555;
+    font-family: Arial;
 }
 
 img {
-	float: left;
-	margin-bottom: 22px;
+    float: left;
+    margin-bottom: 22px;
 }
 
 h1 {
-	float: left;
-	margin-top: 50px;
-	margin-left: 120px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 120px;
 }
 
 hr {
-	clear: left;
+    clear: left;
 }
 
 h2 {
-	color: black;
-	font-size: 18px;
+    color: black;
+    font-size: 18px;
 }
-
 
 th {
-	font-size: 14px;
-	height: 40px;
-	text-align: left;
+    font-size: 14px;
+    height: 40px;
+    text-align: left;
 }
 
-th:first-child,td:first-child {
-	width: 100px;
-	font-weight: bold;
+th:first-child,
+td:first-child {
+    width: 100px;
+    font-weight: bold;
 }
 
 .tblhd {
-	background-color: orange;
+    background-color: orange;
 }
 
 .id {
-	width: 100px;
-	font-style: bold;
+    width: 100px;
+    font-style: bold;
 }
 
 #margin {
-	margin-top: 40px;
+    margin-top: 40px;
 }
 
 #buffer {
-	margin-top: 18px;
+    margin-top: 18px;
 }
 
 td:hover {
-	background-color: #FEFFDB;
-	cursor: pointer;
+    background-color: #FEFFDB;
+    cursor: pointer;
 }
 
 legend {
-	padding: 10px;
+    padding: 10px;
 }
 
 header {
-	font-family: Arial;
-	font-size: 12px; 
-	background-color: orange; 
-	text-align: left;
-	padding: 6px;
-	margin-bottom: 14px;
-	border-width: small;
-	border-style: solid;
-	border-color: darkorange;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: orange;
+    text-align: left;
+    padding: 6px;
+    margin-bottom: 14px;
+    border-width: small;
+    border-style: solid;
+    border-color: darkorange;
 }
 
 footer {
-	font-family: Arial;
-	font-size: 12px; 
-	background-color: orange; 
-	text-align: center;
+    font-family: Arial;
+    font-size: 12px;
+    background-color: orange;
+    text-align: center;
 }
 
 .box {
-	background-color: darkorange;
-	padding: 30px;
-	border-width: medium;
-	border-style: solid;
-	border-color: tomato;
-	margin-bottom: 22px;
+    background-color: darkorange;
+    padding: 30px;
+    border-width: medium;
+    border-style: solid;
+    border-color: tomato;
+    margin-bottom: 22px;
 }
 
 .main-header {
-	position: relative;
-	top: 0;
-	width: 100%;
-	height: 60px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 60px;
 }
 
 .main-nav {
-	display:flex;
-	heigt: 100%;
+    display: -webkit: flex;
+    display: flex;
+    height: 100%;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: flex-end;
 }
 
 .main-nav li {
-	align-self: center;
-	flex-grow: 1;
-	margin-left: 4px;
-
+    align-self: center;
+    list-style: none;
+    flex-grow: 1;
+    margin-left: 4px;
 }
 
 .header-logo:first-child {
-	margin-right: 50%;
-	flex-grow:12;
+    margin-right: 50%;
+    flex-grow: 12;
 }
 
 .form-box {
-	background-color: orange;
-	padding: 30px;
-	border-width: medium;
-	border-style: dashed;
-	border-color: tomato;
-	overflow: auto;
+    background-color: darkorange;
+    padding: 22px;
+    border-height: 6px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: tomato;
+    overflow: auto;
+    margin-top: 22px margin-bottom: 22px;
+    position: left;
+    width: 400px;
 }
 
+.form2 select {
+    padding: 10px;
+    margin: 10px 0;
+    width: 55%;
+}
+
+#form-fields input,
+#form-fields label {
+    display: block;
+}
