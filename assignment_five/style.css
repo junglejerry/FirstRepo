@@ -101,26 +101,30 @@ footer {
     position: relative;
     top: 0;
     width: 100%;
-
 }
 
 .main-nav {
-    height: 100%;
+    display: -webkit: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -webkit-justify-content: space-between;
 }
 
 .main-nav li {
     align-self: center;
     list-style: none;
+    flex-grow: 1;
+    margin-left: 4px;
 }
 
 .header-logo:first-child {
-    margin-right: auto;
+    margin-right: 50%;
+    flex-grow: 12;
 }
-
 
 .form-box {
     background-color: darkorange;
-    padding: 16px;
+    padding: 12px;
     border-height: 3px;
     border-width: 3px;
     border-style: solid;
@@ -128,7 +132,11 @@ footer {
     overflow: auto;
     margin-top: 22px margin-bottom: 22px;
     position: left;
-    max-width: 33%;
+    width: 300px;
+}
+
+textarea {
+    width: 270px;
 }
 
 .form2 select {
@@ -139,7 +147,7 @@ footer {
 #form-fields input,
 #form-fields label {
     display: block;
-    min-width: 40%
+    min-width: 60%
 }
 
 #main-wrapper {
@@ -154,14 +162,10 @@ p {
 
 @media screen and (max-width: 480px) {
     #top_page_links {
-        display:-webkit: flex;
+        display: -webkit: flex;
         display: flex;
-        -webkit-flex-direction: row;
-        -webkit-justify-content: flex-end;
+        -webkit-flex-direction: column;
     }
-}
-
-@media screen and (min-width: 480px) {
     .logo {
         display: -webkit: flex;
         display: flex;
@@ -169,11 +173,3 @@ p {
         margin-right: auto;
     }
 }
-
-#top_page_links {
-    display: -webkit: flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    -webkit-justify-content: flex-end;
-}
-
