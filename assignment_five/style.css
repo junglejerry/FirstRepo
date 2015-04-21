@@ -118,8 +118,7 @@ footer {
 }
 
 .header-logo:first-child {
-    margin-right: 50%;
-    flex-grow: 12;
+
 }
 
 .form-box {
@@ -161,15 +160,9 @@ p {
 }
 
 @media screen and (max-width: 480px) {
-    #top_page_links {
+    .main-nav {
         display: -webkit: flex;
         display: flex;
         -webkit-flex-direction: column;
-    }
-    .logo {
-        display: -webkit: flex;
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
