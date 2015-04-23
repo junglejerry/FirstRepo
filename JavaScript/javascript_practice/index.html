@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <meta http-equiv="Content-Type" content="text/html;">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <title> JavaScript </title>
+</head>
+
+<body>
+    <h1 id="red">some text</h1>
+    <h2>Assignment 7: All That JavaScript</h2>
+    <p>"This assignment will test your Javascript knowledge.</p>
+    <h3>Objectives</h3>
+    <p>Demonstrate knowledge of core Javascript concepts</p>
+    <h4>Instructions</h4>
+    <ul>
+        <li> For this assignment, you'll need to create a simple page (index.html) that includes a series of buttons. Each of the tasks below should be bound to a button that invokes it. </li>
+        <li> To complete this assignment, do the following tasks, linking each to a button on a webpage that can invoke the function:"
+            <ol>
+                <li>Store your name into a variable, and log it to the console.</li>
+                <li>Create a function that says `"Hello <code>yourname</code>." (<code>yourname</code> should be a variable.)</li>
+                <li>Create an array of four names. Log the second item in the array to the console.</li>
+                <li>Create a for loop that logs the number 1-10 to the console.</li>
+                <li>Loop through your name array, logging each name to the console.</li>
+                <li>Loop through your name array, logging each name that starts with "P" to the console.</li>
+                <li>Create an object called `Car`. `Car` should have an attribute of `doors` with the value `4`. It should also have a method called `honk` that logs "Honk" to the console. Log your object to the console so you can inspect its properties and method.</li>
+            </ol>
+        </li>
+    </ul>
+    <hr>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-lg-12" style="background-color:lightgray; text-align: center">
+                    <h2>All That JavaScript</h2>
+                </div>
+                <div class="col-md-12" style="background-color:lavender; text-align: center">
+                    <h3>Assignment 7</h3>
+                </div>
+                <div class="col-md-12" style="background-color:lavenderrose; text-align: center">
+                    <p>Thank you for stopping by.  Click the buttons to learn more about our ReBoot Class".</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="button1">
+
+                    <button type="button" class="btn-primary btn-lg" id="button1" onclick="Function1()">About Me</button>
+                    <p id="red "></p>
+
+                    <script>
+                    function Function1() {
+                        document.getElementById("red ").innerHTML = "Hello! My name is " + name;
+                        console.log("Hello! My name is " + name);
+                    }
+                    </script>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="button2">
+                    <button type="button" class="btn-primary btn-lg" id="button2" onclick="Function2()">Another Student</button>
+                    <p id="blue "></p>
+
+                    <script>
+                    function Function2() {
+                        document.getElementById("blue ").innerHTML = "Another one of our students is named " + (myArray[1]);
+                        console.log(myArray[1]);
+                    }
+                    </script>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="button3">
+
+                    <button type="button" class="btn-primary btn-lg" id="button3" onclick="Function3()">Enrollment</button>
+                    <p id="green "></p>
+
+                    <script>
+                    function Function3() {
+                        document.getElementById("green ").innerHTML = "How many students are enrolled in the Front-End Engineering Course? " + (i);
+   					for (i = 1; i <= 10; i++) {
+        				console.log(i);
+    					}
+                    }
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="button4">
+
+                    <button type="button" class="btn-primary btn-lg" id="button4" onclick="Function4()">Classmates</button>
+                    <p id="orange "></p>
+
+                    <script>
+                    function Function4() {
+                        document.getElementById("orange ").innerHTML = "These are the names of our ReBoot students: " + (myArray);
+                        console.log("Hello! My name is " + name);
+    				for (i = 0; i < myArray.length; i++) {
+        				console.log(myArray);
+    					}
+                    }
+                    </script>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="button5">
+                    <button type="button" class="btn-primary btn-lg" id="button5" onclick="Function5()">P?</button>
+                    <p id="yellow "></p>
+
+                    <script>
+                    function Function5() {
+                        document.getElementById("yellow ").innerHTML = "Which student's name, starts with the letter P?" + (i);
+                    if (text[i] === "p") {
+        				console.log(i)
+    					}
+    				for (var i = 0; i < text.length; i++);
+    				if (text[i] === "p") {
+                    }
+                    </script>
+
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="button6">
+
+                    <button type="button" class="btn-primary btn-lg" id="button6" onclick="Function6()">CAR</button>
+                    <p id="purpel "></p>
+
+                    <script>
+                    function Function6() {
+                        document.getElementById("purple ").innerHTML = "" + honk;
+   					var car = {
+        				doors: 4,
+        				honk: function() {
+            			console.log("honk ");
+        				}
+    				};
+                    </script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <script type="text/javascript ">
+    alert("click the buttons");
+
+    var name = "Jerry";
+
+    console.log("Hello! My name is " + name);
+
+    function showName(name) {
+        console.log("Hello " + name + "!!!");
+    }
+
+    showName(name);
+
+    var myArray = ["Dan", " Doug", " Jerry", " Rashad", " Ricky", " Steve", " Vanessa"];
+    console.log(myArray[1]);
+
+    for (i = 1; i <= 10; i++) {
+        console.log(i);
+    }
+
+    for (i = 0; i < myArray.length; i++) {
+        console.log(myArray[i]);
+    }
+
+    if (text[i] === "p") {
+        console.log(i)
+    }
+
+    for (var i = 0; i < text.length; i++);
+    if (text[i] === "p") {}
+
+    var car = {
+        doors: 4,
+        honk: function() {
+            console.log("honk ");
+        }
+    };
+
+    car.honk();
+    </script>
+</body>
+
+</html>
