@@ -1,43 +1,51 @@
-
 h2 {
-	color: purple;
-	font-family: impact;
-	font-weight: bold;
-	border: 5px solid blue;
-	width:  600px;
-	margin: 100px auto 20px;
-	border-radius: 5px;
-	padding: 20px 10px;
-	text-align: center;
-	font-size: 32px;
+    color: purple;
+    font-family: impact;
+    font-weight: bold;
+    border: 5px solid blue;
+    width: 70%;
+    margin: 100px auto 20px;
+    border-radius: 5px;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 32px;
+}
+
+h3 span {
+	color: blue;
+    cursor: pointer;
+}
+
+ul {
+    padding-top: 20px
 }
 
 .button1 {
-	margin: auto;
-	padding: 20px;
+    margin: auto;
+    padding: 20px;
 }
 
 .button2 {
-	margin: auto;
-	padding: 20px;
+    margin: auto;
+    padding: 20px;
 }
 
 .button3 {
-	margin: auto;
-	padding: 20px;
+    margin: auto;
+    padding: 20px;
 }
 
 .button4 {
-	margin: auto;
-	padding: 20px;
+    margin: auto;
+    padding: 20px;
 }
 
 .button5 {
-	margin: auto;
-	padding: 20px;
+    margin: auto;
+    padding: 20px;
 }
 
 .button6 {
-	margin: auto;
-	padding: 20px;
+    margin: auto;
+    padding: 20px;
 }

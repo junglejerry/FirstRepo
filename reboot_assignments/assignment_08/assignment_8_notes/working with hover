@@ -1,0 +1,29 @@
+/*
+$("#button5").hover(function() {
+        $(this).css($("background", "purple"));
+    },
+    function() {
+        $(this).css("background", "purple").remove();
+    });
+
+
+$("#button5").hover(function() {
+        var $this = $(this);
+        $this.data("color", $this.css("color")).css("background-color", "purple");
+    },
+    function() {
+        var $this = $(this);
+        $this.css("color", $this.data("color"));
+    }
+);
+
+
+     $("button5").hover(function() {
+         $(this).addClass("background-color", "purple");
+     }, function() {
+         $(this).removeClass("background-color," "purple");
+     });
+
+
+
+*/

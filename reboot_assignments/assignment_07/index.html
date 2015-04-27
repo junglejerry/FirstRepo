@@ -44,7 +44,6 @@
                 </div>
             </div>
         </div>
-    </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
@@ -86,7 +85,6 @@
                 </div>
             </div>
         </div>
-    </div>
     <hr>
     <div class="row">
         <div class="col-sm-4">
@@ -106,15 +104,16 @@
         </div>
         <div class="col-sm-4">
             <div class="button5">
-                <button type="button" class="btn-primary btn-lg" id="button5" onclick="Function5()">R?</button>
+                <button type="button" class="btn-primary btn-lg" id="button5" onclick="Function5()">Roll Call</button>
                 <p id="yellow "></p>
                 <script>
                 function Function5() {
                     var myArray = ["Dan", "Doug", "Jerry", "Rashad", "Ricky", "Steve", "Vanessa"];
                     document.getElementById("button5").addEventListener("click", function() {
                         for (j = 0; j < myArray.length; j++) {
-                            if (myArray[j].substring(0, 1) === "R") {
+                            if (myArray[j].substring(0, 1) === "S") {
                                 console.log(myArray[j]);
+                                alert(myArray[j] + " is present.");
                             }
                         }
                     });
@@ -128,7 +127,7 @@
                 <p id="purple "></p>
                 <script>
                 function Function6() {
-                    document.getElementById("purple ").innerHTML = "" + ("honk ");
+                    document.getElementById("purple ").innerHTML = "" + ("Beep! Beep! ");
                     console.log("honk ");
                     var car = {
                         doors: 4,
@@ -141,6 +140,7 @@
                 </script>
             </div>
         </div>
+    </div>
     </div>
     <hr></hr>
     
