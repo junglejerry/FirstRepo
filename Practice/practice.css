@@ -1,0 +1,15 @@
+/* UI Element States Pseudo-Classes */
+
+input[type="text"] :enabled {
+	background: #fcfbcc;
+}
+
+:disabled {
+	background: #ddd;
+}
+
+input[type="radio"] :checked + label {
+	font-size: 22px
+	font-weight: bold;
+}
+
