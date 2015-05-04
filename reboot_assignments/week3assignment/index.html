@@ -34,6 +34,9 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="container">
+                <!-- Headhesive begins here -->
+                <!--<div class="header headhesive--clone"> add a closing div--> 
+                    <!-- header elements will be cloned inside -->
                 <!-- Navbar left begins here -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
@@ -227,19 +230,25 @@
                     <p> <span class="glyphicon glyphicon-star-empty" style="color: #CC5200">
                     </span>
                     </p>
+                    <div class="wow fadeInUp">
                     <p>info info info info</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <p> <span class="glyphicon glyphicon-star-empty" style="color: #CC5200">
                     </span>
                     </p>
+                    <div class="wow fadeInUp">
                     <p>info info info info</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <p> <span class="glyphicon glyphicon-star-empty" style="color: #CC5200">
                     </span>
                     </p>
+                    <div class="wow fadeInUp">
                     <p>info info info info</p>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -247,19 +256,25 @@
                     <p><span class="glyphicon glyphicon-star-empty" style="color: #CC5200">
                     </span>
                     </p>
+                    <div class="wow fadeInUp">
                     <p>info info info info</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <p> <span class="glyphicon glyphicon-star-empty" style="color: #CC5200">
                     </span>
                     </p>
+                    <div class="wow fadeInUp">
                     <p>info info info info</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <p> <span class="glyphicon glyphicon-star-empty" style="color: #CC5200">
                     </span>
                     </p>
+                    <div class="wow fadeInUp">
                     <p>info info info info</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -300,11 +315,17 @@
                 </div>
                 <div class="col-md-7">
                     <h4 class="heading7">International Studies / Missions</h4>
+                    <div class="wow rubberBand">
                     <p class="resumeDetail">info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info</p>
+                    </div>
                     <h4 class="heading8">Leadership & Administration</h4>
+                    <div class="wow rubberBand">
                     <p class="resumeDetail">info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info</p>
+                    </div>
                     <h4 class="heading9">Front-End Engineering</h4>
+                    <div class="wow rubberBand">
                     <p class="resumeDetail">info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info info</p>
+                    </div>
                 </div>
                 <div class="col-md-2">
                     <p class="school"><strong>Southeastern University</strong></p>
@@ -405,7 +426,7 @@
                                     <br />
                                     <label for="text"> Your Message: </label>
                                     <textarea name="enquiry-text" rows="14%" cols="46%"></textarea>
-                                    <input type="submit" value="Send  It" style="font-size: 14px; color: #F0BF0B; background-color: #030000; border-radius: 15%; width: 90px; border-color: #CC5200; padding: 6px; font-weight: bold" />
+                                    <input class="submitButton" type="submit" value="Send  It" />
                                 </fieldset>
                             </form>
                         </div>
@@ -414,20 +435,25 @@
                 <div class="row">
                     <div class="col-md-12" id="footer">
                         <footer class="end">Copyright <span class="glyphicon glyphicon-copyright-mark"></span>Jerry Comellas and Re:Boot Coding 2015</footer>
-                        <div>
-                            <script>
-                            smoothScroll.init();
-                            </script>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <script src="js/wow.min.js"></script>
         <script src="dist/js/smooth-scroll.js"></script>
         <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="owl-carousel/owl.carousel.min.js"></script>
         <script src="scripts.js" type="text/javascript" charset "utf-8"></script>
+
+        <script>
+        var header = new Headhesive('.header');
+        smoothScroll.init();
+        new WOW().init();
+        </script>
+        <script>
+        headhesive.min.js
+        </script>
 </body>
 
 </html>

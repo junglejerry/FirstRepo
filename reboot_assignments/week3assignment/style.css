@@ -1,12 +1,31 @@
 .wrapper {
-    background-image: url(http://72076.inspyred.com/images/ricepaper_v3_@2X.png);
+    background-image: url(ricepaper_v3_@2X.png);
     background-repeat: 100%;
 }
 
+/*colors & content for nav bar*/
 .navbar-header {
     font-family: sans-serif;
     color: #F0BF0B;
     font-size: 12px;
+}
+
+/*colors & content for nav bar*/
+.icon-bar {
+    font-family: sans-serif;
+    color: #F0BF0B;
+    font-size: 12px;
+}
+
+.headhesive--clone {
+  position: fixed;                   /* fix the element */
+  top: 0;                            /* make sure it's at the top */
+  transform: translateY(-100%);      /* move it off screen */
+  transition: all 300ms ease-in-out; /* add animation */
+}
+
+.headhesive--stick {
+  transform: translateY(0%); /* move it back on screen */
 }
 
 .jumbotron {
@@ -207,6 +226,17 @@
 .fields {
    font-size: 13px; 
    color: #F0BF0B;
+}
+
+.submitButton {
+    font-size: 14px; 
+    color: #F0BF0B; 
+    background-color: #030000; 
+    border-radius: 15%; 
+    width: 90px; 
+    border-color: #CC5200; 
+    padding: 6px; 
+    font-weight: bold;
 }
 
 #footer {

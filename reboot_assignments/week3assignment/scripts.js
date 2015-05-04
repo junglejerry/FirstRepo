@@ -22,8 +22,56 @@ $(document).ready(function() {
     });
 
 
+
     //Owl Carousel//
     $("#owl-example").owlCarousel();
+
+
+    //Wow//
+    //new WOW().init();
+
+
+    /*Simple Text Rotator
+    !function($){
+  
+  var defaults = {
+        animation: "dissolve",
+        separator: ",",
+        speed: 2000
+    };
+    
+    $.fx.step.textShadowBlur = function(fx) {
+    $(fx.elem).prop('textShadowBlur', fx.now).css({textShadow: '0 0 ' + Math.floor(fx.now) + 'px black'});
+  };
+    
+  $.fn.textrotator = function(options){
+    var settings = $.extend({}, defaults, options);
+    
+    return this.each(function(){
+      var el = $(this)
+      var array = [];
+      $.each(el.text().split(settings.separator), function(key, value) { 
+        array.push(value); 
+      });
+      el.text(array[0]);
+
+    */
+
+    /*  countTo
+    (function ($) {
+    $.fn.countTo = function (options) {
+        options = options || {};
+
+        return $(this).each(function () {
+            // set options for current element
+            var settings = $.extend({}, $.fn.countTo.defaults, {
+                from:            $(this).data('from'),
+                to:              $(this).data('to'),
+                speed:           $(this).data('speed'),
+                refreshInterval: $(this).data('refresh-interval'),
+                decimals:        $(this).data('decimals')
+            }, options);
+    */
 
 
 

@@ -1,0 +1,75 @@
+/* Importing a picture into your html
+
+HTML
+<img id="dominica" src="../week3assignment/jerry_at_dominica-116kb.jpg">
+
+OR
+
+HTML
+<img id="dominica" src="../jerry_at_dominica-116kb.jpg">
+
+OR
+
+
+HTML connected to the CSS below:
+<div class="container-fluid2">
+        <div class="jumbotron">
+            <div class="row">
+                <h1 style="color:#080000;">Hello, I'm Jerry John Comellas</h1>
+                <h2 style="color:#080000;">Creative Web Developer</h2>
+            </div>
+        </div>
+    </div>
+
+CSS    
+.jumbotron {
+  text-align: center;
+  font-family: serif;
+  font-style: #CC5200;
+  margin-bottom: 0px;
+  background-image: url(https://wiki-land.wikispaces.com/file/view/KayakInSunset.jpg/129769539/946x593/KayakInSunset.jpg);
+
+// If you don't want to link from a website you can link to a picture on your computer like this:   background-image: url(../kayak-wallpaper.jpg);   //
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 95%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: none;
+}
+
+OR
+
+HTML
+<li class="header-logo"><img src="recipes_text-image.jpg" alt="recipe-texts" height="82" width="82" /></li>
+
+OR
+
+<img src="http://72076.inspyred.com/images/jerry_at_dominica-116kb.jpg"/>
+
+
+OR Images and Links Example: (an image, a hyperlinked image and a hyperlink)
+
+  1	<!DOCTYPE html>
+  2	<html>
+  3		<head>
+  4			<title> </title>
+  5		</head>
+  6		<body>
+  7			<img src= http://72076.inspyred.com/images/ACORN_GLOBE.jpg />
+  8 
+  9		<a href= http://www.acorntooakinternational.com <img src= http://72706.inspyred.com/images/comellas%20Family%20GFHOW.jpg /> </a>
+10 
+11			<a href= http://www.acorntooakinternational.com> Acorn to Oak International </a>
+12
+13		</body>
+14	</html>
+
+
+
+
+*/
